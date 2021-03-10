@@ -5,7 +5,7 @@ IniRead, PodpisIns, %A_Temp%\sostovitel.ini, Profile, PodpisIns, Подпись.
 IniRead, podrazdel, %A_Temp%\sostovitel.ini, Profile, podrazdel
 
 Gui, +hwndhGui1
-Gui, Add, Edit, x9 y5 w333 R1 +Center ReadOnly, Путь файла с протоколом тест
+Gui, Add, Edit, x9 y5 w333 R1 +Center ReadOnly, Путь файла с протоколом
 Gui, Add, Edit, x9 y30 w333 R1 vFilePng +Center ReadOnly, Путь файла со скриншотом протокола
 Gui, Add, Button, x345 y4 w23 h23 gFindfile, &...
 Gui, Add, Button, x9 y58 w140 h25 gSettings vButton, &Настройки
