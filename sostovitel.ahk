@@ -1,4 +1,6 @@
-﻿IniRead, Inspector, %A_Temp%\sostovitel.ini, Profile, Inspector, Должность, звание, ФИО. Пример: младший инспектор 2 роты ОБ-ДПС младший сержант полиции Вилман А.В.
+#NoTrayIcon
+
+IniRead, Inspector, %A_Temp%\sostovitel.ini, Profile, Inspector, Должность, звание, ФИО. Пример: младший инспектор 2 роты ОБ-ДПС младший сержант полиции Вилман А.В.
 IniRead, PodpisIns, %A_Temp%\sostovitel.ini, Profile, PodpisIns, Подпись. Пример: Вилман А.
 IniRead, podrazdel, %A_Temp%\sostovitel.ini, Profile, podrazdel
 
